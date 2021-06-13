@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.homeDiv{
+    padding: 10px;
+    height: 735px;
+    
+}
+
+.items{
+    height: 735px;
+    overflow-y: auto;
+}
+
+.addButton{
+    /* position: sticky; */
+    z-index: 999;
+    position: fixed;
+    bottom: 60px;
+    /* top: 800px; */
+    left: 298px;
+}
+
+.paperItem{
+    margin-top: 15px;
+    padding: 5px 3px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.paperItem h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
